@@ -1,6 +1,4 @@
-import Head from 'next/head'
-
-
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -11,10 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <h1 className='text-3xl fotn-bold'>
-      Next Tailwind Ecommerce
-    </h1>
-
+      <h1 className="text-3xl font-bold">Next Tailwind Ecommerce</h1>
     </div>
-  )
+  );
 }
